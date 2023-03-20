@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* nav */
 .container-nav {
     height: 40px;
     display: flex;
@@ -27,6 +28,7 @@
     align-items: center;
 }
 
+/* main part */
 .container-bloc {
     display: flex;
     flex-direction: row;
@@ -41,6 +43,18 @@
 .bloc-text {
     width: 40%;
 }
+
+.container-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center
+}
+
+/* footer */
+.footer-nav {}
+
+
 
 
 /* DEBUG */
@@ -63,4 +77,14 @@
 .bloc-text {
     border: 1px solid;
     height: 100%;
+}
+
+.container-bottom {
+    background-color: blueviolet;
+    height: 500px;
+}
+
+.footer-nav {
+    background-color: rgb(8, 67, 24);
+    height: 500px;
 }
